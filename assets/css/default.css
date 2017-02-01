@@ -2,8 +2,12 @@
 /* ------------------
     General setting
 --------------------*/
+
+* {
+	margin: 0;
+}
+
 html {
-  	height: 100%;
   	box-sizing: border-box;
 }
 
@@ -15,16 +19,42 @@ body {
     	color: #000000;
     	background-color: #f5f5f5;
   	padding-bottom: 6rem;
-  	min-height: 100%;
   	font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+html, body {
+	min-height: 100%;
+}
 
-.footer {
+/* -----------------
+   Wrapper Class
+-------------------*/
+
+.header-wrap {
+}
+
+.page-wrap {
+	min-height: 100%;
+	margin-bottom:-150px;
+}
+
+.page-wrap:befire {
+}
+
+.page-wrap:after {
+	content:"";
+	display:block;
+}
+
+.footer-wrap {
   	position: absolute;
   	right: 0;
   	bottom: 0;
   	left: 0;
   	padding: 1rem;
   	background-color: #efefef;
+}
+
+.footer-wrap, .page-wrap:after {
+	height:150px;
 }
