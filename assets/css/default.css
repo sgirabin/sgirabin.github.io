@@ -36,6 +36,10 @@ html, body {
 .page-wrap {
 	min-height: 100%;
 	margin-bottom:-150px;
+  	text-align: center;
+  	font-family: 'Comfortaa', cursive;
+  	margin: 0 auto;
+  	font-size: 40px;
 }
 
 .page-wrap:before {
@@ -51,9 +55,10 @@ html, body {
 }
 
 .page-wrap .center {
-	vertical-align: center;
-	text-align: center;
+	min-height: 100px;
+  	line-height: 400px;
 }
+
 
 .footer-wrap {
   	position: absolute;
