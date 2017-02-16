@@ -46,6 +46,10 @@ html, body {
 	display:block;
 }
 
+.page-wrap h1 {
+	font-family: 'Comfortaa', cursive;
+}
+
 .footer-wrap {
   	position: absolute;
   	right: 0;
