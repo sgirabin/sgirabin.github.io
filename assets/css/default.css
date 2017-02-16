@@ -50,6 +50,11 @@ html, body {
 	font-family: 'Comfortaa', cursive;
 }
 
+.page-wrap .center {
+	vertical-align: center;
+	text-align: center;
+}
+
 .footer-wrap {
   	position: absolute;
   	right: 0;
