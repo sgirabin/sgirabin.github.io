@@ -8,23 +8,26 @@
 }
 
 html {
-  	box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
 	position: relative;
 	font-size: 16px;
-    	line-height: 24px;
-    	margin: 0 auto;
-    	color: #000000;
-    	background-color: #f5f5f5;
-  	padding-bottom: 6rem;
-  	font-family: "Helvetica Neue", Arial, sans-serif;
+	line-height: 24px;
+	margin: 0 auto;
+	color: #000000;
+	background-color: #f5f5f5;
+	padding-bottom: 6rem;
+	font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 html, body {
 	min-height: 100%;
 }
+
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,108,228,1) 0%, rgba(144,234,252,1) 100%);
 
 /* -----------------
    Wrapper Class
@@ -36,10 +39,10 @@ html, body {
 .page-wrap {
 	min-height: 100%;
 	margin-bottom:-150px;
-  	text-align: center;
-  	font-family: 'Comfortaa', cursive;
-  	margin: 0 auto;
-  	font-size: 40px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	margin: 0 auto;
+	font-size: 40px;
 }
 
 .page-wrap:before {
@@ -56,17 +59,16 @@ html, body {
 
 .page-wrap .center {
 	min-height: 100px;
-  	line-height: 400px;
+	line-height: 400px;
 }
 
-
 .footer-wrap {
-  	position: absolute;
-  	right: 0;
-  	bottom: 0;
-  	left: 0;
-  	padding: 1rem;
-  	background-color: #efefef;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #efefef;
 }
 
 .footer-wrap, .page-wrap:after {
