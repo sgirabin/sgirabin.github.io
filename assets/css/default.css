@@ -27,7 +27,10 @@ html, body {
 }
 
 background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,108,228,1) 0%, rgba(144,234,252,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,108,228,1) 0%, rgba(144,234,252,1) 100%);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,108,228,1) 0%, rgba(144,234,252,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#90eafc",GradientType=1);
 
 /* -----------------
    Wrapper Class
